@@ -5,7 +5,7 @@
 [![Docker](https://img.shields.io/badge/Docker-20.10%2B-blue)](https://docker.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A production-ready, fully containerized MLOps pipeline for automated model training, version control, deployment, and real-time monitoring — built on the Wine Quality dataset.
+> 🎯 A production-ready, fully containerized MLOps pipeline for automated model training, version control, deployment, and real-time monitoring — built on the Wine Quality dataset.
 
 ---
 
@@ -70,5 +70,5 @@ This project demonstrates a complete MLOps lifecycle, including:
 
 ## 📝 License
 
-This project was developed by İrfan Eren Cömert as part of his personal MLOps portfolio.
+This project was developed by İrfan Eren Cömert as part of his academic and personal portfolio.
 ⚠️ Unauthorized use, replication, or misrepresentation is strictly prohibited under the MIT License.
