@@ -213,4 +213,6 @@ evaluation_results
 .github/workflows
 SETUP_GUIDE.md
 docker-compose.override.yml
+docker-compose.yml
+Dockerfile
 logs
