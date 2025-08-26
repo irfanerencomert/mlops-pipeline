@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'ml-monitoring'
+    static_configs:
+      - targets: ['monitor:8000']
+        labels:
+          service: 'ml-monitor'
+
+  - job_name: 'model-api'
+    static_configs:
+      - targets: ['app:5000']
+        labels:
+          service: 'wine-model-api'
