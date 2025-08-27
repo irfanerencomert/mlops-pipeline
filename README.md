@@ -48,7 +48,7 @@ This project demonstrates a complete MLOps lifecycle, including:
 
 ---
 
-## 📦 Project Structure (Simplified)
+## 📂 Project Structure
 
 ```bash
 📦 mlops-pipeline/

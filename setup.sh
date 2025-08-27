@@ -26,7 +26,7 @@ ALERT_INTERVAL=3600
 ENV=development
 
 # Slack Configuration (optional)
-SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+SLACK_WEBHOOK_URL=[YOUR_WEBHOOK_URL]
 
 # API Configuration
 PORT=5000
@@ -186,7 +186,3 @@ echo "4. API'yi test et: python tests/test_api.py"
 echo "5. Grafana: http://localhost:3000"
 echo "6. Prometheus: http://localhost:9090"
 echo ""
-echo "📋 Önemli Notlar:"
-echo "- .env dosyasını ihtiyaçlarınıza göre düzenleyin"
-echo "- Slack webhook URL'sini eklemek isterseniz .env dosyasını güncelleyin"
-echo "- İlk çalıştırmada servislerin başlaması 2-3 dakika sürebilir"
