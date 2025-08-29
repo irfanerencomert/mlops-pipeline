@@ -48,6 +48,18 @@ This project demonstrates a complete MLOps lifecycle, including:
 
 ---
 
+## 🖼️ Visuals
+### MLflow 
+![MLflow Preview](assets/mlflow.png)
+### Minio 
+![Minio Preview](assets/minio.png)
+### Grafana 
+![Grafana Preview](assets/grafana.png)
+### Prometheus 
+![Prometheus Preview](assets/prometheus.png)
+
+---
+
 ## 📂 Project Structure
 
 ```bash
@@ -67,6 +79,8 @@ This project demonstrates a complete MLOps lifecycle, including:
 └── README.md
 ```
 💡 Note: CI/CD workflows (.github/workflows) and full Grafana/Prometheus configs are not included in this version but are planned for future integration.
+
+---
 
 ## 📝 License
 
