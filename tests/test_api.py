@@ -36,7 +36,7 @@ def test_api_prediction():
     assert result['prediction'] in [0, 1, 2]
 
     # Test invalid input
-    invalid_data = {"features": [1, 2, 3]}  # Too short
+    invalid_data = {"features": [1, 2, 3]}
     response = requests.post(f"{API_URL}/predict", json=invalid_data)
     print(f"Invalid input status code: {response.status_code}")
     print(f"Invalid input response: {response.text}")
